@@ -9,6 +9,6 @@ services:
    ports:
      - 8081:3008
   service-registration:
-   build: ../
+   build: ../user-registration
    ports:
      - 8082:3009

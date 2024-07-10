@@ -21,7 +21,7 @@ jobs:
         
     - name: Build and upload Docker images
       run: |
-        services=("service-video" "service-CRUD" "service-registration")
+        services=("microservicio-video" "online-store" "user-registration")
         
         for service in "${services[@]}"
         do
