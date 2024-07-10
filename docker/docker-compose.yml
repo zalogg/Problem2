@@ -12,3 +12,7 @@ services:
    build: ../user-registration
    ports:
      - 8082:3009
+
+
+
+
