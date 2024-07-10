@@ -4,7 +4,7 @@ services:
    build: ../microservicio-video
    ports:
      - 8080:3007
-  service-CRUD:
+  service-crud:
    build: ../online-store
    ports:
      - 8081:3008
