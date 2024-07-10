@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Online</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tienda Online</h1>
+    <h2>Registro de Productos</h2>
+    <form id="productForm" class="form">
+      <input type="text" id="productId" placeholder="ID Producto" required />
+      <input type="text" id="productName" placeholder="Nombre Producto" required />
+      <input type="number" id="productPrice" placeholder="Precio" required />
+      <input type="number" id="productStock" placeholder="Stock" required />
+      <button type="submit">Agregar</button>
+    </form>
+    <h2>Lista de Productos</h2>
+    <ul id="productList" class="product-list"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
